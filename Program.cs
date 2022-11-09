@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using TRANHOANGCHUNGBTH2.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<TRANHOANGCHUNGBTH2Context>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("TRANHOANGCHUNGBTH2Context") ?? throw new InvalidOperationException("Connection string 'TRANHOANGCHUNGBTH2Context' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
