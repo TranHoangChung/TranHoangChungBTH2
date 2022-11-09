@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TRANHOANGCHUNGBTH2.Models;
 
-namespace TRANHOANGCHUNGBTH2.Controllers 
+namespace TRANHOANGCHUNGBTH2.Controllers
 {
     public class CustomerController : Controller
     {
