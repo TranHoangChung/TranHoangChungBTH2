@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using TRANHOANGCHUNGTRANHOANGCHUNGBTH2.Models;
-using TRANHOANGCHUNGTRANHOANGCHUNGBTH2.Models.Process;
+using TRANHOANGCHUNGBTH2.Models;
+using TRANHOANGCHUNGBTH2.Models.Process;
 
-namespace TRANHOANGCHUNGTRANHOANGCHUNGBTH2.Controllers
+namespace TRANHOANGCHUNGBTH2.Controllers
 {
     public class StudentController : Controller 
     {

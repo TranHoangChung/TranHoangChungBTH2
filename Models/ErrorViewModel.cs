@@ -1,4 +1,4 @@
-namespace TRANHOANGCHUNGTRANHOANGCHUNGBTH2.Models;
+namespace TRANHOANGCHUNGBTH2.Models;
 
 public class ErrorViewModel
 {

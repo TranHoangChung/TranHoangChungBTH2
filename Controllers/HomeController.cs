@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using TRANHOANGCHUNGTRANHOANGCHUNGBTH2.Models;
+using TRANHOANGCHUNGBTH2.Models;
 
-namespace TRANHOANGCHUNGTRANHOANGCHUNGBTH2.Controllers;
+namespace TRANHOANGCHUNGBTH2.Controllers;
 
 public class HomeController : Controller
 {
