@@ -155,7 +155,7 @@ namespace TRANHOANGCHUNGBTH2.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        public async Task<IActionResult> Upload()
+        public IActionResult Upload()
         {
             return View();
         }

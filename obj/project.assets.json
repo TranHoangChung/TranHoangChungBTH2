@@ -10221,26 +10221,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hctun\\.nuget\\packages\\": {}
+    "C:\\Users\\HC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MS TRANG\\BTL Phat Trien PM QL\\TRANHOANGCHUNGBTH2\\TRANHOANGCHUNGBTH2\\TRANHOANGCHUNGBTH2.csproj",
+      "projectUniqueName": "D:\\PTPMQL\\TranHoangChungBTH2\\TRANHOANGCHUNGBTH2.csproj",
       "projectName": "TRANHOANGCHUNGBTH2",
-      "projectPath": "D:\\MS TRANG\\BTL Phat Trien PM QL\\TRANHOANGCHUNGBTH2\\TRANHOANGCHUNGBTH2\\TRANHOANGCHUNGBTH2.csproj",
-      "packagesPath": "C:\\Users\\hctun\\.nuget\\packages\\",
-      "outputPath": "D:\\MS TRANG\\BTL Phat Trien PM QL\\TRANHOANGCHUNGBTH2\\TRANHOANGCHUNGBTH2\\obj\\",
+      "projectPath": "D:\\PTPMQL\\TranHoangChungBTH2\\TRANHOANGCHUNGBTH2.csproj",
+      "packagesPath": "C:\\Users\\HC\\.nuget\\packages\\",
+      "outputPath": "D:\\PTPMQL\\TranHoangChungBTH2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hctun\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\HC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
