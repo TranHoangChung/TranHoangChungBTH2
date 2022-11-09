@@ -10,7 +10,7 @@ using TRANHOANGCHUNGTRANHOANGCHUNGBTH2.Models.Process;
 
 namespace TRANHOANGCHUNGTRANHOANGCHUNGBTH2.Controllers
 {
-    public class StudentController : Controller
+    public class StudentController : Controller 
     {
         private readonly ApplicationDbContext _context;
         private ExcelProcess _excelProcess = new ExcelProcess();
