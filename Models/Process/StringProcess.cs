@@ -12,7 +12,7 @@ namespace TRANHOANGCHUNGBTH2.Models.Process
             Console.WriteLine (letterOnly); 
             int newNumberKey = Int32.Parse(numberOnly) + 1;
             Console.WriteLine (newNumberKey);
-            //if(newNumberKey < 10) { return (letterOnly + newNumberKey); }
+            //if(newNumberKey < 10) { return (letterOnly + newNumberKey); } 
             return (letterOnly + newNumberKey.ToString());
         }
     }
