@@ -65,11 +65,9 @@ namespace TRANHOANGCHUNGBTH2.Controllers
             if (ModelState.IsValid)
             {
                 employee.EmployeeName = employeeName;
-                //trang
                 var id = _context.Employee.OrderByDescending(m => m.EmployeeID).First().EmployeeID;
                 var newKey = strPro.AutoGenerateKey(id);
                 employee.EmployeeID = newKey;
-                //trang
                 _context.Add(employee);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -174,7 +172,7 @@ namespace TRANHOANGCHUNGBTH2.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        public async Task<IActionResult> Upload()
+        public IActionResult Upload()
         {
             return View();
         }

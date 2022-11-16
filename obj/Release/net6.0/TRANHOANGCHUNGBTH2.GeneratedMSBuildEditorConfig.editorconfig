@@ -8,133 +8,121 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TRANHOANGCHUNGBTH2
 build_property.RootNamespace = TRANHOANGCHUNGBTH2
-build_property.ProjectDir = D:\MS TRANG\BTL Phat Trien PM QL\TRANHOANGCHUNGBTH2\TRANHOANGCHUNGBTH2\
+build_property.ProjectDir = D:\HC\BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ\TRANHOANGCHUNGBTH2\TRANHOANGCHUNGBTH2\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\MS TRANG\BTL Phat Trien PM QL\TRANHOANGCHUNGBTH2\TRANHOANGCHUNGBTH2
+build_property.MSBuildProjectDirectory = D:\HC\BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ\TRANHOANGCHUNGBTH2\TRANHOANGCHUNGBTH2
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Customers/Create.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Customers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Customers/Delete.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Customers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Customers/Details.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Customers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Customers/Edit.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Customers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Customers/Index.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Customers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Customers/Upload.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXFVwbG9hZC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Employees/Create.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Employees/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Employees/Delete.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Employees/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Employees/Details.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Employees/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Employees/Edit.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Employees/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Employees/Index.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Employees/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Employees/Upload.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Employees/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXFVwbG9hZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Home/Index.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Home/Privacy.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/People/Create.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/People/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/People/Delete.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/People/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/People/Details.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/People/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/People/Edit.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/People/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/People/Index.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/People/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/People/Upload.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXFVwbG9hZC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Shared/Error.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Students/Create.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Students/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Students/Delete.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Students/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Students/Details.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Students/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Students/Edit.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Students/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Students/Index.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Students/Upload.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcVXBsb2FkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/_ViewImports.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/_ViewStart.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MS TRANG/BTL Phat Trien PM QL/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Shared/_Layout.cshtml]
+[D:/HC/BTL PHÁT TRIỂN PHẦN MỀM QUẢN LÝ/TRANHOANGCHUNGBTH2/TRANHOANGCHUNGBTH2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-c0erlccrwp
