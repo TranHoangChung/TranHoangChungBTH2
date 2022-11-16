@@ -175,7 +175,7 @@ namespace TRANHOANGCHUNGBTH2.Controllers
                 {
                     //rename file when upload to server 
                     var fileName = DateTime.Now.ToShortTimeString() + fileExtension;
-                    var filePath = Path.Combine(Directory.GetCurrentDirectory() + "Uploads_Excels", fileName);
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory() + "/Uploads_Excels", fileName);
                     var fileLocation = new FileInfo(filePath).ToString();
                     using (var stream = new FileStream(filePath, FileMode.Create))
                     {

@@ -169,13 +169,13 @@ namespace TRANHOANGCHUNGBTH2.Controllers
                 if (fileExtension != ".xls" && fileExtension != ".xlsx")
                 {
                     Console.WriteLine("cant upload");
-                    ModelState.AddModelError("Customer", "Please choose excel file to upload!");
+                    ModelState.AddModelError("employee", "Please choose excel file to upload!");
                 }
                 else
                 {
                     //rename file when upload to server 
                     var fileName = DateTime.Now.ToShortTimeString() + fileExtension;
-                    var filePath = Path.Combine(Directory.GetCurrentDirectory() + "Uploads_Excels", fileName);
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory() + "/Uploads_Excels", fileName);
                     var fileLocation = new FileInfo(filePath).ToString();
                     using (var stream = new FileStream(filePath, FileMode.Create))
                     {

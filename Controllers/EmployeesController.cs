@@ -16,6 +16,7 @@ namespace TRANHOANGCHUNGBTH2.Controllers
     {
         private readonly TRANHOANGCHUNGBTH2Context _context;
         private ExcelProcess _excelProcess = new ExcelProcess();
+        private StringProcess strPro = new StringProcess();
 
         public EmployeesController(TRANHOANGCHUNGBTH2Context context)
         {
@@ -24,8 +25,9 @@ namespace TRANHOANGCHUNGBTH2.Controllers
 
         // GET: Employees
         public async Task<IActionResult> Index()
-        {
-              return View(await _context.Employee.ToListAsync());
+        { 
+            var id = _context.Employee.OrderByDescending(m => m.EmployeeID).First().EmployeeID;
+            return View(await _context.Employee.ToListAsync());
         }
 
         // GET: Employees/Details/5
@@ -57,16 +59,33 @@ namespace TRANHOANGCHUNGBTH2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("EmployeeID,EmployeeName")] Employee employee)
+        public async Task<IActionResult> Create([Bind("EmployeeName")] string employeeName)
         {
+            Employee employee = new Employee();
             if (ModelState.IsValid)
             {
+                employee.EmployeeName = employeeName;
+                //trang
+                var id = _context.Employee.OrderByDescending(m => m.EmployeeID).First().EmployeeID;
+                var newKey = strPro.AutoGenerateKey(id);
+                employee.EmployeeID = newKey;
+                //trang
                 _context.Add(employee);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(employee);
         }
+        //public async Task<IActionResult> Create([Bind("EmployeeID,EmployeeName")] Employee employee)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        _context.Add(employee);
+        //        await _context.SaveChangesAsync();
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(employee);
+        //}
 
         // GET: Employees/Edit/5
         public async Task<IActionResult> Edit(string id)
@@ -155,7 +174,7 @@ namespace TRANHOANGCHUNGBTH2.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        public IActionResult Upload()
+        public async Task<IActionResult> Upload()
         {
             return View();
         }
