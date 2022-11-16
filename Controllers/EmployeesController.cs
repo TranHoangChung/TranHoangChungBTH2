@@ -64,7 +64,7 @@ namespace TRANHOANGCHUNGBTH2.Controllers
             Employee employee = new Employee();
             if (ModelState.IsValid)
             {
-                employee.EmployeeName = employeeName;
+                employee.EmployeeName = employeeName; 
                 var id = _context.Employee.OrderByDescending(m => m.EmployeeID).First().EmployeeID;
                 var newKey = strPro.AutoGenerateKey(id);
                 employee.EmployeeID = newKey;
