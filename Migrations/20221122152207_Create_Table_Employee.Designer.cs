@@ -10,8 +10,8 @@ using TranHoangChungBTH2.Data;
 namespace TranHoangChungBTH2.Migrations
 {
     [DbContext(typeof(ApplicationDbContex))]
-    [Migration("20221122134331_Create_Table_Student")]
-    partial class CreateTableStudent
+    [Migration("20221122152207_Create_Table_Employee")]
+    partial class CreateTableEmployee
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

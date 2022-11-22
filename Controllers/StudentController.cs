@@ -15,6 +15,7 @@ namespace TranHoangChungBTH2.Controllers
     {
         private readonly ApplicationDbContex _context;
         private ExcelProcess _excelProcess = new ExcelProcess();
+        private StringProcess strPro = new StringProcess();
         public StudentController (ApplicationDbContex contex)
         {
             _context = contex;
@@ -22,6 +23,7 @@ namespace TranHoangChungBTH2.Controllers
         // GET: Students
         public async Task<IActionResult> Index()
         {
+            //var id = _context.Student.OrderByDescending(m => m.StudentID).First().StudentID;
               return _context.Student != null ? 
                           View(await _context.Student.ToListAsync()) :
                           Problem("Entity set 'ApplicationDbContex.Student'  is null.");
@@ -48,7 +50,8 @@ namespace TranHoangChungBTH2.Controllers
         // GET: Students/Create
         public IActionResult Create()
         {
-            ViewData["FacultyID"]=new SelectList(_context.Faculty, "FacultyID", "FacultyName");
+           ViewData["FacultyID"]=new SelectList(_context.Faculty, "FacultyID", "FacultyName");
+            
             return View();
         }
 
@@ -59,11 +62,20 @@ namespace TranHoangChungBTH2.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("StudentID,StudentName,FacultyID")] Student student)
         {
+
             if (ModelState.IsValid)
             {
+                //student.StudentName = studentName;
+                //var id = _context.Student.OrderByDescending(m => m.StudentID).First().StudentID;
+                //var newKey = strPro.AutoGenerateKey(id);
+                //student.StudentID = newKey;
+                //@ViewBag.ID=newKey;
+                
+
                 _context.Add(student);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
+                
             }
             ViewData["FacultyID"]=new SelectList(_context.Faculty, "FacultyID", "FacultyName",student.FacultyID);
             return View(student);
@@ -171,7 +183,7 @@ namespace TranHoangChungBTH2.Controllers
                 if (fileExtension != ".xls" && fileExtension != ".xlsx")
                 {
                     Console.WriteLine("cant upload");
-                    ModelState.AddModelError("employee", "Please choose excel file to upload!");
+                    ModelState.AddModelError("Student", "Please choose excel file to upload!");
                 }
                 else
                 {

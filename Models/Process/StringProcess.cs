@@ -6,7 +6,7 @@ namespace TranHoangChungBTH2.Models.Process
     {
         public string AutoGenerateKey ( string strInput )
         {
-            if (strInput is null) strInput="STD001";
+            strInput=strInput ?? "STD001";
             string strResult="", numPart="", strPart="";
             numPart=Regex.Match(strInput,@"\d+").Value;
             strPart=Regex.Match(strInput,@"\D+").Value;
