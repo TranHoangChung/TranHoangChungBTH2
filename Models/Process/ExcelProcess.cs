@@ -1,6 +1,6 @@
-﻿using System.Data;
+using System.Data;
 using OfficeOpenXml;
-namespace TRANHOANGCHUNGBTH2.Models.Process
+namespace TranHoangChungBTH2.Models.Process
 {
     public class ExcelProcess
     {

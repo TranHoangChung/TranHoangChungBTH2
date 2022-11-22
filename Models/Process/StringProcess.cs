@@ -1,19 +1,22 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 
-namespace TRANHOANGCHUNGBTH2.Models.Process
+namespace TranHoangChungBTH2.Models.Process
 {
     public class StringProcess
     {
-        public string AutoGenerateKey ( string key )
+        public string AutoGenerateKey ( string strInput )
         {
-            string numberOnly = Regex.Replace(key, "[^0-9.]", "");
-            Console.WriteLine(numberOnly);  
-            string letterOnly = Regex.Replace(key, @"[^A-Z]+", ""); 
-            Console.WriteLine (letterOnly); 
-            int newNumberKey = Int32.Parse(numberOnly) + 1;
-            Console.WriteLine (newNumberKey);
-            //if(newNumberKey < 10) { return (letterOnly + newNumberKey); } 
-            return (letterOnly + newNumberKey.ToString());
+            if (strInput is null) strInput="STD001";
+            string strResult="", numPart="", strPart="";
+            numPart=Regex.Match(strInput,@"\d+").Value;
+            strPart=Regex.Match(strInput,@"\D+").Value;
+            int intPart=(Convert.ToInt32(numPart)+1);
+            for (int i=0; i<numPart.Length - intPart.ToString().Length;i++)
+            {
+                strPart +=0;
+            }
+            strResult=strPart+intPart;
+            return strResult;
         }
     }
 }
