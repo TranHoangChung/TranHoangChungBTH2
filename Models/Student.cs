@@ -7,8 +7,9 @@ namespace TranHoangChungBTH2.Models
         public string? StudentID { get; set; } = default!;
         public string? StudentName { get; set; } = default!;
         public string? FacultyID {get; set;}
+        //public string? FacultyName {get; set;} = default;
         [ForeignKey("FacultyID")]
-        public Faculty Faculty {get; set;} = default!;
+        public Faculty? Faculty {get; set;} = default!;
 
     }
 }

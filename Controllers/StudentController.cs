@@ -23,7 +23,7 @@ namespace TranHoangChungBTH2.Controllers
         // GET: Students
         public async Task<IActionResult> Index()
         {
-            //var id = _context.Student.OrderByDescending(m => m.StudentID).First().StudentID;
+            //var id = "STD001" ?? _context.Student.OrderByDescending(m => m.StudentID).First().StudentID;
               return _context.Student != null ? 
                           View(await _context.Student.ToListAsync()) :
                           Problem("Entity set 'ApplicationDbContex.Student'  is null.");
@@ -51,7 +51,18 @@ namespace TranHoangChungBTH2.Controllers
         public IActionResult Create()
         {
            ViewData["FacultyID"]=new SelectList(_context.Faculty, "FacultyID", "FacultyName");
-            
+
+           var newID = "";
+            if (_context.Student.Count() == 0)
+            {
+                newID = "STD0001";
+            }
+            else
+            {
+                var id = _context.Student.OrderByDescending(m => m.StudentID).First().StudentID;
+                newID = strPro.AutoGenerateKey(id);
+            }
+            ViewBag.StudentID = newID; 
             return View();
         }
 
@@ -65,11 +76,11 @@ namespace TranHoangChungBTH2.Controllers
 
             if (ModelState.IsValid)
             {
-                //student.StudentName = studentName;
-                //var id = _context.Student.OrderByDescending(m => m.StudentID).First().StudentID;
-                //var newKey = strPro.AutoGenerateKey(id);
-                //student.StudentID = newKey;
-                //@ViewBag.ID=newKey;
+                // //student.StudentName = studentName;
+                // var id = _context.Student.OrderByDescending(m => m.StudentID).First().StudentID;
+                // var newKey = strPro.AutoGenerateKey(id);
+                // student.StudentID = newKey;
+                // ViewBag.ID=newKey;
                 
 
                 _context.Add(student);
@@ -201,6 +212,7 @@ namespace TranHoangChungBTH2.Controllers
                             var emp = new Student();
                             emp.StudentID = dt.Rows[i][0].ToString();
                             emp.StudentName = dt.Rows[i][1].ToString();
+                            emp.FacultyID = dt.Rows[i][2].ToString();
                             _context.Student.Add(emp);
                         }
                         await _context.SaveChangesAsync();

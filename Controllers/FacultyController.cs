@@ -90,7 +90,7 @@ namespace TranHoangChungBTH2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(String id, [Bind("ID,FacultyID,FacultyName")] Faculty faculty)
+        public async Task<IActionResult> Edit(String id, [Bind("FacultyID,FacultyName")] Faculty faculty)
         {
             if (id != faculty.FacultyID)
             {
