@@ -52,6 +52,7 @@ namespace TranHoangChungBTH2.Controllers
         {
            ViewData["FacultyID"]=new SelectList(_context.Faculty, "FacultyID", "FacultyName");
 
+            //AutoGenerateKey
            var newID = "";
             if (_context.Student.Count() == 0)
             {

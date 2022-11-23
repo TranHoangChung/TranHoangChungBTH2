@@ -59,12 +59,11 @@ namespace TranHoangChungBTH2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("EmployeeID,EmployeeName")] string employeeName)
+        public async Task<IActionResult> Create([Bind("EmployeeID,EmployeeName,Address")] Employee employee)
         {
-            Employee employee = new Employee();
             if (ModelState.IsValid)
             {
-                employee.EmployeeName = employeeName;
+                //employee.EmployeeName = employeeName;
             
                 // var id = _context.Employee.OrderByDescending(m => m.EmployeeID).First().EmployeeID;
                 // var newKey = strPro.AutoGenerateKey(id);
@@ -206,6 +205,7 @@ namespace TranHoangChungBTH2.Controllers
                             var emp = new Employee();
                             emp.EmployeeID = dt.Rows[i][0].ToString();
                             emp.EmployeeName = dt.Rows[i][1].ToString();
+                            emp.Address = dt.Rows[i][2].ToString();
                             _context.Employee.Add(emp);
                         }
                         await _context.SaveChangesAsync();

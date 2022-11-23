@@ -10,7 +10,7 @@ using TranHoangChungBTH2.Data;
 namespace TranHoangChungBTH2.Migrations
 {
     [DbContext(typeof(ApplicationDbContex))]
-    [Migration("20221122152207_Create_Table_Employee")]
+    [Migration("20221123061528_Create_Table_Employee")]
     partial class CreateTableEmployee
     {
         /// <inheritdoc />
@@ -22,6 +22,9 @@ namespace TranHoangChungBTH2.Migrations
             modelBuilder.Entity("TranHoangChungBTH2.Models.Employee", b =>
                 {
                     b.Property<string>("EmployeeID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Address")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("EmployeeName")
@@ -51,7 +54,6 @@ namespace TranHoangChungBTH2.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FacultyID")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("StudentName")
@@ -68,9 +70,7 @@ namespace TranHoangChungBTH2.Migrations
                 {
                     b.HasOne("TranHoangChungBTH2.Models.Faculty", "Faculty")
                         .WithMany()
-                        .HasForeignKey("FacultyID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("FacultyID");
 
                     b.Navigation("Faculty");
                 });

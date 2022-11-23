@@ -4,6 +4,6 @@ namespace TranHoangChungBTH2.Models
     {
         public string? EmployeeID { get; set; } = default!;
         public string? EmployeeName { get; set; } = default!;
-        // public string Address { get; set; } = default!;
+        public string? Address { get; set; } = default!;
     }
 }
